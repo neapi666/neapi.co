@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>neapi.co</title>
+    <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico" >
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/animatescroll.min.js"></script>
+
+</head>
+
+<body>
+<header>
+  <div>
+    <figure>
+      <img src="./imagenes/header_imagen3.jpg" width="1000" height="200" alt="imagen de header">
+    </figure>
+    <nav>
+      <ol>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#sobre_nestor" onclick="$('#sobre_nestor').animatescroll({scrollSpeed:2000,easing:'easeInOutCubic'});" >Sobre Néstor</a>
+        </li>            
+        <li>
+          <a href="#servicios" onclick="$('#servicios').animatescroll({scrollSpeed:2000,easing:'easeInOutCubic'});">Servicios</a>
+        </li>
+        <li>
+          <a href="#portafolio" onclick="$('#portafolio').animatescroll({scrollSpeed:2000,easing:'easeInOutCubic'});" >Portafolio</a>
+        </li>
+        <li>
+          <a href="#blog" onclick="$('#blog').animatescroll({scrollSpeed:2000,easing:'easeInOutCubic'});">Blog</a>
+        </li>
+        <li>
+          <a href="#enlaces" onclick="$('#enlaces').animatescroll({scrollSpeed:2000,easing:'easeInOutCubic'});">Enlaces</a>
+        </li>
+        <li>
+          <a href="#contacto" onclick="$('#contacto').animatescroll({scrollSpeed:2000,easing:'easeInOutCubic'});">Contacto</a>
+        </li>
+      </ol>  
+    </nav>
+  </div>
+</header>
+<section id="sobre_nestor">
+  <h1>Hola, Soy Néstor Pineda Desarrollador de Software <br>apasionado por la tecnología.</h1>
+  <img src="./imagenes/header_imagen.jpg"  alt="Imagen de portada">
+</section>
+<section id="servicios">
+  <h2>Servicios</h2>
+  <img src="./imagenes/header_imagen.jpg" alt="Imagen de portada">  <!-- borrar --> 
+  <article>
+    <h3>Web Personal</h3>
+    <p><small><strong>Fecha:</strong> 01/01/2019</small></p>
+    <p><small><strong>Puedes verlo en: </strong><a href="https://neapi.co/" target="_blank">www.neapi.co</a></small></p>
+    <p>Proyecto que busca fortalecer la presencia en internet y contactar con los clientes.</p>
+  </article>
+</section>
+<section id="portafolio">
+  <h2>Portafolio</h2>
+  <img src="./imagenes/header_imagen.jpg" alt="Imagen de portada"> <!-- borrar -->
+  <article>
+    <figure>
+      <img src="" alt="">
+    </figure>
+    <h3>Business Intelligence</h3>
+    <p>9 años de experiencia en Inteligencia de Negocios en el sector público</p>
+    <a href="http://" target="_blank">Miralo aquí</a>
+  </article>
+</section>
+<section id="blog">
+  <h2>Blog</h2>
+  <img src="./imagenes/header_imagen.jpg" alt="Imagen de portada"> <!-- borrar -->
+</section>
+<section id="enlaces">
+  <h2>Enlaces</h2>
+  <img src="./imagenes/header_imagen.jpg" alt="Imagen de portada"> <!-- borrar -->
+</section>
+<section id="contacto">
+  <form action="/suscripcion/">
+    <h2>Contacto</h2>
+    <img src="./imagenes/header_imagen.jpg" alt="Imagen de portada"> <!-- borrar -->
+    <input type="email" name="email" placeholder="tú email" required>
+    <input type="submit" value="Enviar">
+  </form>
+</section>
+<footer>footer</footer>
+
+
+</body>
+</html>
