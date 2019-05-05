@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>neapi.co</title>
     <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico" >
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
     <script src="js/jquery-1.8.3.min.js"></script>
     <script src="js/animatescroll.min.js"></script>
-
 </head>
 
 <body>
-<header>
+<header class="header">
   <div>
     <figure>
       <img src="./imagenes/header_imagen3.jpg" width="1000" height="200" alt="imagen de header">
@@ -45,23 +45,13 @@
     </nav>
   </div>
 </header>
-<section id="sobre_nestor">
-  <h1>Hola, Soy Néstor Pineda Desarrollador de Software <br>apasionado por la tecnología.</h1>
+<section id="sobre_nestor" class="sobre-nestor">
+  <h1>Hola, Soy Néstor Pineda Otero<br>Desarrollador de Software en formación<br>apasionado por la tecnología.</h1>
   <img src="./imagenes/header_imagen.jpg"  alt="Imagen de portada">
 </section>
 <section id="servicios">
   <h2>Servicios</h2>
   <img src="./imagenes/header_imagen.jpg" alt="Imagen de portada">  <!-- borrar --> 
-  <article>
-    <h3>Web Personal</h3>
-    <p><small><strong>Fecha:</strong> 01/01/2019</small></p>
-    <p><small><strong>Puedes verlo en: </strong><a href="https://neapi.co/" target="_blank">www.neapi.co</a></small></p>
-    <p>Proyecto que busca fortalecer la presencia en internet y contactar con los clientes.</p>
-  </article>
-</section>
-<section id="portafolio">
-  <h2>Portafolio</h2>
-  <img src="./imagenes/header_imagen.jpg" alt="Imagen de portada"> <!-- borrar -->
   <article>
     <figure>
       <img src="" alt="">
@@ -69,6 +59,36 @@
     <h3>Business Intelligence</h3>
     <p>9 años de experiencia en Inteligencia de Negocios en el sector público</p>
     <a href="http://" target="_blank">Miralo aquí</a>
+  </article>
+</section>
+<section id="portafolio"> <!-- Para los proyectos más importantes-->
+  <h2>Portafolio</h2>
+  <article class="proyectos"> 
+    <div class="proyecto-detalles">
+      <h3>Proyecto 1 </h3>
+      <p><small><strong>Fecha:</strong> 01/01/2019</small></p>
+      <p><small><strong>Puedes verlo en: </strong><a href="https://neapi.co/" target="_blank">www.neapi.co</a></small></p>
+      <p>Proyecto que busca fortalecer la presencia en internet y contactar con los clientes.</p>
+    </div>
+    <div class="proyecto-imagen">
+      <figure class="imagen-container">
+        <img class="imagen-proyectos" src="./imagenes/proyecto1.jpg" width="300" height="300" alt="imagen de header" alt="Imagen proyecto1">
+      </figure>
+    </div>
+  </article>
+    <br/>
+  <article class="proyectos">
+    <div class="proyecto-detalles">
+      <h3>Proyecto 2 </h3>
+      <p><small><strong>Fecha:</strong> 01/01/2019</small></p>
+      <p><small><strong>Puedes verlo en: </strong><a href="https://neapi.co/" target="_blank">www.neapi.co</a></small></p>
+      <p>Proyecto que busca fortalecer la presencia en internet y contactar con los clientes.</p>
+    </div>
+    <div class="proyecto-imagen">
+      <figure class="imagen-container">
+        <img class="imagen-proyectos" src="./imagenes/proyecto2.jpg" width="300" height="300" alt="imagen de header" alt="Imagen proyecto2">
+      </figure>
+    </div>
   </article>
 </section>
 <section id="blog">
@@ -87,8 +107,7 @@
     <input type="submit" value="Enviar">
   </form>
 </section>
-<footer>footer</footer>
-
-
+<address>Bogotá, Colombia</address>
+<footer><small>&copy; Derechos Reservados 2019</small></footer>
 </body>
 </html>

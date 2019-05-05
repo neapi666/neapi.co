@@ -1,4 +1,44 @@
 body {
-    background-color: chartreuse;
+    background-color: rgb(101, 120, 233); 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
     
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+}
+
+
+.proyectos {
+    width: 1000px
+}
+
+.proyecto-detalles {
+    width: 500px
+}
+
+.proyecto-imagen {
+    width: 500px
+}
+
+.header {
+    background-color: #1b2127;
+    color: white;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.sobre-nestor{
+    height: 300px;
+    background-color: red
 }
